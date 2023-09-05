@@ -14,7 +14,7 @@ const app = express();
 /*
  * Variable Declarations
  */
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
 const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
