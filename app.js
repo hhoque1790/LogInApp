@@ -27,7 +27,8 @@ passport.use(
     {
       clientID: GITHUB_CLIENT_ID,
       clientSecret: GITHUB_CLIENT_SECRET,
-      callbackURL: `https://userlogin1790-79756cf3275f.herokuapp.com/auth/github/callback`,
+      callbackURL: `http://localhost:${PORT}/auth/github/callback`,
+      // callbackURL: `https://userlogin1790-79756cf3275f.herokuapp.com/auth/github/callback`,
     },
     (accessToken, refreshToken, profile, done) => {
       done(null, profile);
