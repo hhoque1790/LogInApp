@@ -5,5 +5,5 @@ login details to his/her github account.
 Tech stack used includes: HTML, CSS, JS, Passport JS Framework,
 
 ## How to Install and Run the Project
-Using npm install, install all relevant dependecies. Then in directory of project run node app.js to set up server. Then 
+Using npm install to install all relevant dependecies. Then in the directory of the project run node app.js to set up the server. Then 
 load up http://localhost:3000 to start up the web app.
